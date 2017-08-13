@@ -12,17 +12,22 @@ KDIR := ~/compile/linux-4.4
 ```
 
 - Jump to the source dir. Excute `make build` command to compile the module. Then, make sure there exists `lyfs.ko` module file.
+
 ![](https://github.com/iDalink/lyfs/blob/master/img/%EF%BC%92%E7%BC%96%E8%AF%91.png?raw=true)
 ![](https://github.com/iDalink/lyfs/blob/master/img/1%E8%BF%9B%E5%85%A5%E7%9B%AE%E5%BD%95.png?raw=true)
 
 - Excute `make mount`. It will `insmod`, and mount `output/disk.img` to `output/point`. `output/disk.img` has been formated, it contains some files. Of course, you can run `mkfs.lyfs` to format the img file. Excute `touch` to create file.
+
 ![](https://github.com/iDalink/lyfs/blob/master/img/%EF%BC%93%E5%AE%89%E8%A3%85%E5%B9%B6%E6%8C%82%E8%BD%BD.png?raw=true)
+
 ![](https://github.com/iDalink/lyfs/blob/master/img/%EF%BC%94%E8%BF%9B%E5%85%A5%E5%AD%90%E7%9B%AE%E5%BD%95.png?raw=true)
 
 - Now you can operate the mounted file system as you want.  Excute `echo` to write some string into one file and excute `cat` to read the file. 
+
 ![](https://github.com/iDalink/lyfs/blob/master/img/%EF%BC%95%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.png?raw=true)
 
 - Now, you can unmount the file system and remove the module from your system.
+
 ![](https://github.com/iDalink/lyfs/blob/master/img/%EF%BC%96%E5%8F%96%E6%B6%88%E6%8C%82%E8%BD%BD%E5%B9%B6%E5%8D%B8%E8%BD%BD.png?raw=true)
 
 ### LYFS architecture
