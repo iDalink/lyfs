@@ -1,4 +1,4 @@
-## LYFS - A simple kernel file system exapmle run in 4.* version Linux.
+## LYFS - A simple kernel file system example run in 4.* version Linux.
 ### Important Tips!
 - **The example can only be used to study. It can not work as tools. The author has no reponsibilty to your file & device damage.**
 - The code has been tested in linux-4.4.
