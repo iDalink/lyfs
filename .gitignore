@@ -1,0 +1,16 @@
+*.o
+*.ko
+*.order
+*.sumbers
+*.mod.c
+*.cmd
+.*.*.cmd
+.tmp_versions
+*/.symvers
+*/*.o
+*/*.ko
+*/*.order
+*/*.sumbers
+*/*.mod.c
+*/*.cmd
+*/.*.*.cmd
